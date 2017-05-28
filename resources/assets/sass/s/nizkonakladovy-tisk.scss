@@ -1,0 +1,15 @@
+.nizkonakladovy-tisk{
+	.container{
+		background: none;
+	}
+	&__subheader{
+		h2{
+			font-size: 30px;
+		}
+		ul{
+			li{
+				font-size: 18px;
+			}
+		}
+	}
+}

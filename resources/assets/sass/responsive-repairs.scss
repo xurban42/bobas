@@ -1,0 +1,344 @@
+@media (min-width: 2048px){
+	.velkoplosny-tisk{
+		background-attachment: scroll;
+		background-size: cover;
+	}
+}
+
+@media (min-width: 1920px){
+	.offer-form{
+		background-attachment: scroll;
+		background-size: cover;
+	}
+	.potisktricek{
+		background-attachment: scroll;
+		background-size: cover;
+	}
+	.tvorba-napisu{
+		background-attachment: scroll;
+		background-size: cover;
+	}
+}
+
+
+
+@media (max-width: 1350px){
+	.container{
+		width: 90%;
+	}   
+
+	.services{
+		.container{
+			width: 100%;
+		}
+	}
+	#contact{
+		width: 100%;
+	}
+	.velkoplosny-tisk{
+		background-size: 1350px auto;
+	}
+	.tvorba-napisu{
+		background-size: 1350px auto;
+	}
+}
+
+@media (max-width: 1285px) and (min-width: 993px){
+	.nizkonakladovy-tisk{
+		.container{
+			padding-top: 140px;
+		}
+		h1{
+			font-size: 36px;
+		}
+		p{
+			font-size: 24px;
+		}
+	}
+
+}
+
+@media (max-width: 1250px) and (min-width: 993px){
+	.services{
+		.service{
+			h3{
+				font-size: 30px;
+			}
+			&.l12{
+				height: 194px;
+				overflow: hidden;
+				h3{
+					font-size: 50px;
+				}
+				&.large{
+					height: 388px;
+					overflow: hidden;
+					h3{
+						font-size: 52px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1190px){
+	.contact{
+		.l8{
+			p{
+				font-size: 24px;
+				margin-top: 34px;
+			}
+			a{
+				&:link, &:visited{
+					font-size: 24px;
+					margin-top: 34px;
+				}
+			}
+		}
+		.l4{
+			h4{
+				font-size: 26px;
+			}
+		}
+	}
+	.tvorba-napisu{
+		p{
+			font-size: 24px;
+		}
+	}
+}
+
+@media (max-width: 1070px){
+	.velkoplosny-tisk{
+		&__subheader{
+			img{
+				width: 100%;
+				height: auto;
+				max-width: 500px;
+			    margin: 0 auto;
+			    float: none !important;
+			    display: block;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1050px){
+	.contact-form{
+		h5{
+			font-size: 28px;
+		}
+	}
+}
+
+
+@media (max-width: 992px){
+	.container{
+		width: 85%;
+	}   
+	.services{
+		.container{
+			width: calc(100% - 1.5rem);
+		}
+	}
+	#contact{
+		width: calc(100% - 1.5rem);
+	}
+}	
+
+
+@media (max-width: 800px){
+	.contact-form{
+		h5{
+			font-size: 20px;
+		}
+	}
+}
+
+@media (max-width: 580px){
+	.potisktricek{
+		&-technologie{
+			h2{
+				font-size: 32px;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 540px){
+	.tvorba-napisu{
+		background-size: auto 800px;
+	}
+	.pismo-description{
+		h2{
+			font-size: 36px;
+		}
+	}
+	.container{
+		width: 80%;
+	}
+	.slider{
+		.swiper-slide{
+			a{
+				font-size: 14px;
+				height: auto;
+				padding: 7px 30px;
+    			line-height: 38px;
+			}
+		}
+	}
+}
+
+@media (max-width: 510px){
+	.contact-form{
+		h5{
+			font-size: 18px;
+			img{
+				width: 32px;
+				height: auto;
+			}
+		}
+		input{
+			width: 90%;			
+		}
+		textarea{
+			width: 90%;
+		}
+	}
+	header{
+		.brand{
+			img{
+				width: auto;
+    			height: 45px;
+			}
+		}
+	}
+	.nizkonakladovy-tisk{
+		.container{
+			padding-top: 75px;
+		}
+	}
+}
+
+
+@media (max-width: 520px){
+	.slider{
+		.swiper-slide{
+			h1{
+				font-size: 28px;				
+			}
+			h2{
+				font-size: 28px;
+			}
+			p{
+				font-size: 22px;;
+			}
+		}
+	}
+	.velkoplosny-tisk{
+		h1{
+			font-size: 36px;
+		}
+		p{
+			font-size: 28px;
+		}
+	}
+}
+
+@media (max-width: 460px){
+	.potisktricek{
+		a{
+			clear: both;
+		}
+		a + a{
+			margin-top: 20px;
+		}
+	}
+	section h2{
+		font-size: 34px;
+	}
+	section p{
+		font-size: 18px;
+	}
+	.velkoplosny-tisk{
+		&__subheader{
+			ul{
+				li{
+					font-size: 18px;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 440px){
+	.nizkonakladovy-tisk{
+		.container{
+			height: auto;
+			padding-bottom: 60px;
+		}
+		h1{
+			font-size: 36px;
+		}
+		p{
+			font-size: 24px;
+		}
+	}
+}
+
+
+@media (max-width: 410px){
+	.slider{
+		.swiper-button-white{
+			display: none;
+		}
+	}
+}
+
+@media (max-width: 370px){
+	.velkoplosny-tisk{
+		h1{
+			font-size: 30px;
+		}
+		p{
+			font-size: 24px;
+		}
+	}
+	section h2{
+		font-size: 28px;
+	}
+	header{
+		.brand{
+			display: none;
+		}
+	}
+	.potisktricek{
+		&-technologie{
+			h2{
+				font-size: 28px;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 360px){
+	.potisktricek{
+		h1{
+			font-size: 36px;
+		}
+		p{
+			font-size: 22px;
+		}
+	}
+	.side-nav{
+		width: 320px !important;
+	}
+}
+
+body{
+	min-width: 303px;
+}

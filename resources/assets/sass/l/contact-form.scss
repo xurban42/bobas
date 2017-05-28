@@ -1,0 +1,45 @@
+.contact-form{
+	h5{
+		color: #f9760c;
+		margin-top: 40px;
+		img{
+			vertical-align: text-top;
+			margin-right: 20px;
+		}
+	}
+	textarea{
+		&.materialize-textarea{
+			height: 14rem !important;
+			overflow: auto;
+		}
+	}
+	button{
+		transition: 0.3s all;
+		img{
+			vertical-align: text-top;
+		    padding: 0px;
+		    margin-top: -1px;
+		    margin-left: 10px;
+		    padding-right: 5px;
+		    transition: 0.3s all;
+		}
+		&:hover{
+			img{
+				padding-right: 0;
+				padding-left: 5px;
+			}
+		}
+	}
+}
+
+#form-messages{
+	font-size: 14px;
+	margin-top: 10px;
+	&.success{
+		color: #43a047; 
+	}
+	&.error{
+		color: #e53935;
+	}
+}
+

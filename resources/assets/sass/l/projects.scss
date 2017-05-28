@@ -1,0 +1,18 @@
+.projects{
+  padding-bottom: 80px;
+  h2{
+    color: #10939f;
+    font-size: 30px;
+    margin: 60px 0 30px;
+  }
+  p{
+    font-size: 24px;
+    &.time{
+      font-weight: 700;
+      color: #12121b;
+    }
+  }
+  svg{
+    margin-right: 8px;
+  }
+}

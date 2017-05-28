@@ -1,0 +1,17 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Map bobas.dev to /public.
+RewriteRule ^$ /public/ [L]
+
+# Map bobas.dev/x to /public/x unless there is a x in the web root.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^(.*)$ /public/$1
+
+# Add trailing slash to directories within public
+# This does not expose the internal URL.
+RewriteCond %{SCRIPT_FILENAME} -d
+RewriteRule ^public/(.*[^/])$ http://bobas.dev/$1/ [R=301]

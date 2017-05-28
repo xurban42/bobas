@@ -1,0 +1,127 @@
+
+
+// Mixins
+// @import "components/prefixer";
+@import "materialize/components/mixins";
+@import "materialize/components/color";
+
+// Variables;
+@import "materialize/components/variables";
+
+// Reset
+@import "materialize/components/normalize";
+
+// components
+@import "materialize/components/global";
+@import "materialize/components/badges";
+@import "materialize/components/icons-material-design";
+@import "materialize/components/grid";
+@import "materialize/components/navbar";
+//@import "materialize/components/roboto";
+@import "materialize/components/typography";
+@import "materialize/components/transitions";
+@import "materialize/components/cards";
+@import "materialize/components/toast";
+@import "materialize/components/tabs";
+@import "materialize/components/tooltip";
+@import "materialize/components/buttons";
+@import "materialize/components/dropdown";
+@import "materialize/components/waves";
+@import "materialize/components/modal";
+@import "materialize/components/collapsible";
+@import "materialize/components/chips";
+@import "materialize/components/materialbox";
+@import "materialize/components/forms/forms";
+@import "materialize/components/table_of_contents";
+@import "materialize/components/sideNav";
+@import "materialize/components/preloader";
+@import "materialize/components/slider";
+@import "materialize/components/carousel";
+@import "materialize/components/date_picker/default";
+@import "materialize/components/date_picker/default.date";
+@import "materialize/components/date_picker/default.time";
+
+
+@import "fonts";
+
+
+
+#map{
+	width: 100%;
+	height: 400px;
+}
+
+.row{
+  margin-bottom: 0;
+}
+
+//Swiper - min css
+@import 'swiper';
+
+
+
+
+
+// large devices
+
+  //Components
+    @import 'l/header.scss';
+    @import 'l/side-navigation';
+
+  //Home page
+    @import 'l/slider';
+    @import 'l/services';
+    @import 'l/contact';
+    @import 'l/contact-form';
+
+  //Velkoplošný tisk  
+    @import 'l/large-print';
+
+  //3D písmo
+    @import 'l/3d-fonts';  
+
+  //Potisk triček  
+    @import 'l/potisk-tricek';
+
+  //Nízkonákladový tisk
+    @import 'l/nizkonakladovy-tisk';  
+
+
+
+
+  @media only screen and (max-width: 992px) {
+    // styles for medium screens and larger
+    
+
+    //Home page
+      @import 'm/slider';
+      @import 'm/services';
+      @import 'm/contact';
+
+    //3D písmo
+      @import 'm/3d-fonts';
+
+    //Potisk triček
+      @import 'm/potisk-tricek';
+
+    //Nízkonákladový tisk
+      @import 'm/nizkonakladovy-tisk';
+  }
+
+ @media only screen and (max-width: 600px) {
+    // styles mobile
+    
+    //Components
+      @import 's/header.scss';
+
+    //Home page
+      @import 's/contact';
+  
+    //Nízkonákladový tisk
+      @import 's/nizkonakladovy-tisk';
+
+  }
+
+
+  //Responsive repairs
+    @import 'responsive-repairs';

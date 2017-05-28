@@ -1,0 +1,61 @@
+.nizkonakladovy-tisk{
+	width: 100%;
+	background-image: url('../imgs/nizkonakladovy-tisk.jpg');
+	//background-size: cover;
+	background-position: 50% 0;
+	background-attachment: fixed;
+	padding-top: 0;
+	padding-bottom: 0;
+	.container{
+		height: 600px;
+		background-image: url('../imgs/canon.png');
+		background-repeat: no-repeat;
+		background-position: 100% 0;
+		padding-top: 170px;
+		padding-bottom: 130px;
+	}
+	h1{
+		color: #f9760c;
+	}
+	p{
+		font-weight: 300;
+		font-size: 28px;
+		color: #fff;
+	}
+	a{
+		margin-right: 20px;
+	}
+	&-technologie{
+		padding: 40px 0;
+		h2{
+			color: #f9760c;
+		}
+		p{
+			font-size: 18px;
+		}
+		&.termotransferovy-tisk{
+			width: 100%;
+			background-color: #ebebeb;
+			-webkit-box-shadow: inset 0px 5px 21px 0px rgba(0,0,0,0.16);
+			-moz-box-shadow: inset 0px 5px 21px 0px rgba(0,0,0,0.16);
+			box-shadow: inset 0px 5px 21px 0px rgba(0,0,0,0.16);
+		}
+	}
+	&__subheader{
+		padding: 40px 0;
+		h2{
+			font-size: 36px;
+
+		}
+		ul{
+			padding-left: 25px;
+			li{
+				list-style-image: url('../imgs/icons/check-box.png');
+				font-size: 22px;
+				margin-bottom: 12px;
+			}
+		}
+	}
+}
+
+

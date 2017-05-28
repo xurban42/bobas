@@ -1,0 +1,38 @@
+.potisktricek{
+	width: 100%;
+	background-image: url('../imgs/potisk-tricek.jpg');
+	//background-size: cover;
+	background-position: 50% 0;
+	background-attachment: fixed;
+	padding-top: 110px;
+	padding-bottom: 80px;
+	h1{
+		color: #f9760c;
+	}
+	p{
+		font-weight: 300;
+		font-size: 28px;
+		color: #fff;
+	}
+	a{
+		margin-right: 20px;
+	}
+	&-technologie{
+		padding: 40px 0;
+		h2{
+			color: #f9760c;
+		}
+		p{
+			font-size: 18px;
+		}
+		&.termotransferovy-tisk{
+			width: 100%;
+			background-color: #ebebeb;
+			-webkit-box-shadow: inset 0px 5px 21px 0px rgba(0,0,0,0.16);
+			-moz-box-shadow: inset 0px 5px 21px 0px rgba(0,0,0,0.16);
+			box-shadow: inset 0px 5px 21px 0px rgba(0,0,0,0.16);
+		}
+	}
+}
+
+

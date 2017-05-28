@@ -1,0 +1,30 @@
+.tvorba-napisu{
+	width: 100%;
+	background-image: url('../imgs/3d-pismo.jpg');
+	//background-size: cover;
+	background-position: 50% 0;
+	background-attachment: fixed;
+	padding-top: 110px;
+	padding-bottom: 80px;
+	h1{
+		color: #f9760c;
+	}
+	p{
+		font-weight: 300;
+		font-size: 28px;
+		color: #fff;
+	}
+}
+
+
+.pismo-description{
+	padding-top: 40px;
+	ul.advantages{
+		padding-left: 25px;
+		li{
+			list-style-image: url('../imgs/icons/check-box.png');
+			font-size: 22px;
+			margin-bottom: 12px;
+		}
+	}
+}
